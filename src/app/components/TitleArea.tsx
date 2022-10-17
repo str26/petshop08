@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export const Title_Area = () => {
+export const TitleArea = () => {
   return (
     <>
       <div className="page-title-area">
@@ -9,7 +10,7 @@ export const Title_Area = () => {
             <h1>Title Here</h1>
             <ul>
               <li>
-                <a href="index.html">Home</a>
+                <Link to="/">Pagina Principal</Link>
               </li>
               <li>Title Here</li>
             </ul>

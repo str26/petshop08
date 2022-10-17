@@ -11,7 +11,6 @@ import "./assets/css/odometer.min.css";
 import "./assets/css/boxicons.min.css";
 import "./assets/css/slick.min.css";
 import "./assets/css/countrySelect.min.css";
-import "./assets/css/meanmenu.min.css";
 import "./assets/css/style.css";
 import "./assets/css/responsive.css";
 import "bootstrap/dist/css/bootstrap.min.css";
