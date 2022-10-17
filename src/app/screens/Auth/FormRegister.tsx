@@ -4,34 +4,42 @@ export const FormRegister = () => {
   return (
     <>
       <div className="register-form">
-        <h2>Register</h2>
+        <h2>Registrar</h2>
         <form>
           <div className="form-group">
-            <label>Username</label>
+            <label>Nombre de Usuario</label>
             <input
               type="text"
               className="form-control"
-              placeholder="Username"
+              placeholder="Nombre de Usuario"
             />
           </div>
           <div className="form-group">
-            <label>Email</label>
-            <input type="email" className="form-control" placeholder="Email" />
+            <label>Correo Electronico</label>
+            <input type="email" className="form-control" placeholder="Correo Electronico" />
           </div>
           <div className="form-group">
-            <label>Password</label>
+            <label>Contraseña</label>
             <input
               type="password"
               className="form-control"
-              placeholder="Password"
+              placeholder="Contraseña"
+            />
+          </div>
+          <div className="form-group">
+            <label>Repetir Contraseña</label>
+            <input
+              type="password"
+              className="form-control"
+              placeholder="Repetir Contraseña"
             />
           </div>
           <p className="description">
-            The password should be at least eight characters long. To make it
-            stronger, use upper and lower case letters, numbers, and symbols
-            like ! " ? $ % ^ & )
+            La contraseña debe tener al menos ocho caracteres. Para hacerla más
+            fuerte, utilice letras mayúsculas y minúsculas, números y símbolos
+            ¡como ! " ? $ % ^ & )
           </p>
-          <button type="submit">Register</button>
+          <button type="submit">Registrar</button>
         </form>
       </div>
     </>
